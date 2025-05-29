@@ -20,15 +20,20 @@ Technologies Used: Python (Programming Language), spaCy (Natural Language Proces
 
 We created a rule-based AI chatbot that can:
 *Understand user input using spaCy's NLP model
+
 *Match the input against a set of predefined question patterns using PhraseMatcher
+
 Provide accurate, pre-programmed responses for topics like:
 
 Math, Physics, Chemistry, General greetings and farewells
 
 How It Works:
 *Load the NLP Model: en_core_web_sm from spaCy
+
 *Define QA Pairs: Each question has multiple patterns and one response.
+
 *Pattern Matching: User input is compared to all known patterns using spaCy’s PhraseMatcher.
+
 *Return a Response: If a match is found, the bot returns the associated answer; otherwise, it asks the user to rephrase.
 
 # OUTPUT 
